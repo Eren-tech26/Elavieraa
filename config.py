@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("21968859"))
+API_HASH = getenv("21a59d21687f01d448530ee88a26b1eb")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7831283689:AAEhx01EMDE-bfd7vq_amVlBzfghB3LT7lQ")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://lollolopp0900:slayersan@cluster0.mge1ngz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
+LOG_GROUP_ID = int(getenv("-1002485775078", None))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = int(getenv("6356050482", None))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/Music_World_Update")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Music_World_Support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/VERON_BOTS")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/VERON_SUPPORTS")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -65,7 +65,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQG2k-wAJD_h-LwRValEU3jXov9nVP6d21ErM8JfFUlzG52of0jVyL-VeO_vx3ChcyPR0ZPs9xFt9tc946gLxvVtu6ak1tG0rNadRe2cl1MK1rfTjarIFLK3DhLGNZ0U4xWbbX8C55Azw9g_qWf-8nScr2cATMxqxpzmJ1YbvdQ5PYMGM9fGsxEabpLIIsnqOZm8Xofeck9iAIDIDCMOnq4YYbiQD5x2llJJioOfAxvxfyTORNlIm9NeQaFObHuJyo3W-b39XfhkYEesxRSxpFg9Bz8lD-uFVaeLYsH6j85nSQe9co8D3V8xbTPlaKWgXH5_A610uMkjrS1eMviS5Oh37Qt65AAAAAFfDNHUAA", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -81,21 +81,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/4df86a4e5c3bd48972f55-0d056340bc5ac4c6f6.jpg"
+    "START_IMG_URL", "https://i.ibb.co/hJTjT5Sx/photo-2025-05-29-07-49-17-7509783130606141452.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/owh3j7.jpg"
+    "PING_IMG_URL", "https://i.ibb.co/hJTjT5Sx/photo-2025-05-29-07-49-17-7509783130606141452.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/6tled7.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/4dd9e2c231eaf7c290404.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/8234d704952738ebcda7f.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/8d02ff3bde400e465219a.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/e24f4a5f695ec5576a8f3.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/7645d1e04021323c21db9.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/76d29aa31c40a7f026d7e.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/b7758d4e1bc32aa9fb6ec.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/60ed85638e00df10985db.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/f4edfbd83ec3150284aae.jpg"
+PLAYLIST_IMG_URL = "https://i.ibb.co/hJTjT5Sx/photo-2025-05-29-07-49-17-7509783130606141452.jpg"
+STATS_IMG_URL = "https://i.ibb.co/hJTjT5Sx/photo-2025-05-29-07-49-17-7509783130606141452.jpg"
+TELEGRAM_AUDIO_URL = "https://i.ibb.co/hJTjT5Sx/photo-2025-05-29-07-49-17-7509783130606141452.jpg"
+TELEGRAM_VIDEO_URL = "https://i.ibb.co/hJTjT5Sx/photo-2025-05-29-07-49-17-7509783130606141452.jpg"
+STREAM_IMG_URL = "https://i.ibb.co/hJTjT5Sx/photo-2025-05-29-07-49-17-7509783130606141452.jpg"
+SOUNCLOUD_IMG_URL = "https://i.ibb.co/hJTjT5Sx/photo-2025-05-29-07-49-17-7509783130606141452.jpg"
+YOUTUBE_IMG_URL = "https://i.ibb.co/hJTjT5Sx/photo-2025-05-29-07-49-17-7509783130606141452.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/hJTjT5Sx/photo-2025-05-29-07-49-17-7509783130606141452.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://i.ibb.co/hJTjT5Sx/photo-2025-05-29-07-49-17-7509783130606141452.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://i.ibb.co/hJTjT5Sx/photo-2025-05-29-07-49-17-7509783130606141452.jpg"
 
 
 def time_to_seconds(time):
@@ -117,3 +117,4 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
