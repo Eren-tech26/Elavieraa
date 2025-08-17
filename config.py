@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("21968859"))
+API_HASH = getenv("21a59d21687f01d448530ee88a26b1eb")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8055158116:AAFfw3IMurfCYoAIlNE2xiBG_mjX20Mhdvo")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://thebiggestcomebackever:EREN1234@cluster0.7q7ri.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
+LOG_GROUP_ID = int(getenv("-1002346695101", None))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = int(getenv("7774827065", None))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/Music_World_Update")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Music_World_Support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/igrischatsupport")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/aethonixsupport")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -65,7 +65,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BQGPbhsAfJ2CW1eV8OYYAsyyZQ8ePR8GjaGr5k4aTAgBQZFJpV0XX6tArsCWd4q0_oNvTwzllxMWEZ5KrJWPNdilOZjst99LqQoCgkYQRqkF6c-5pZX28SDTvvgm-zG5b9R-r-S76t3IameIBl6pNeEVq1P7iSKh_MtAqluF6zHlKS9dRShMUDhyTL2USr8jZyrj0hW8lbHYYvg-hob3wiBbdCzDoNuLEUZy4GxlCuDYYEGVJLErPcEwbb-LFqC9vHkcLXYie4y62JYXTz6h5Mn3F2dORilIOZejehBNzDQABbEKNrMekjPQ_H21sCKHdWaFaQKPimwNrAzBf3EWJvFna-AfPwAAAAGBx94sAA", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -117,3 +117,4 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
